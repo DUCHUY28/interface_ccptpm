@@ -1,0 +1,52 @@
+﻿@page "/fetchdata"
+@inject HttpClient Http
+
+<PageTitle>Weather forecast</PageTitle>
+
+<button class="btn-box1">Quản lí sách</button>
+<NavLink class="nav-link" href="detailsach">          
+                <button class="btn-box2">Chi tiết sách</button>
+            </NavLink>
+
+<div class="section-qlsach">
+    <div class="in4-sach">
+        <div class="box-left">
+            <span>Tên sách :</span><input type="text"/><br />
+            <span>Mã sách :</span><input type="text"/><br />
+            <span>Số lượng :</span><input type="number"/>
+            
+        </div>
+        <div class="box-right">
+            <span>Tác giả :</span><input type="text"/><br />
+            <span>Loại sách :</span><input type="text" /><br />
+            <span>Nhà xuất bản :</span><input type="text"/>
+        </div>  
+    </div>
+    <div class="section-bottom">
+        <button class="box-add">Thêm mới</button>
+        <button class="box-setup">Sửa</button>
+        <button class="box-del">Xóa</button>
+    </div>
+
+    <div class="section-table table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tên sách</th>
+                <th>Mã sách</th>
+                <th>Số lượng</th>
+                <th>Tác giả</th>
+                <th>Loại sách</th>
+                <th>Nhà xuất bản</th>
+            </tr>
+        </thead>
+    </table>  
+
+</div>
+</div>
+
+
+
+@code {
+   
+}

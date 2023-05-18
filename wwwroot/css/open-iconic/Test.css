@@ -1,0 +1,258 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+
+html,body {
+font-family:'Times New Roman', Times, serif;
+}
+html span {
+    color:white;
+}
+#header {
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(180deg, rgb(48, 153, 232) 0%, #0fbaee 70%);
+}
+.Ten {
+    display:inline-block;
+    margin-left:50%;
+    transform:translate(-50%);
+    margin-top:20px;
+    font-weight:700;
+}
+.btn-logout {
+    border: 2px solid black;
+    background: #00FFFF;
+    margin-left:200px;
+    padding:5px 15px;
+    border-radius:5px;
+}
+    .btn-logout:hover {
+        background: #5be5d6;
+    }
+.btn-box1 {
+    margin-top:8px;
+    background: #23cee9;
+    position:absolute;
+    border-radius:6px;
+}
+.btn-box1:hover {
+    background:#5be5d6;
+}
+.btn-box2 {
+    background: #EEEEEE;
+    position:relative;
+    left:120px;
+    border-radius:6px;
+}
+    .btn-box2:hover {
+        background: #5be5d6;
+    }
+#DocGia-form {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(180deg, rgb(129, 197, 239) 0%, rgb(102, 139, 201) 70%);
+    border: 2px solid #999999;
+    border-radius: 10px;
+}
+.section-top {
+    display: flex;
+    justify-content: space-around;
+}
+.box-left input,.box-right span{
+    margin-top:50px;
+    margin-bottom:100px;
+}
+.box-left input,.box-right input {
+    margin-left:40px;
+    margin-top:50px;
+    margin-bottom:40px;
+}
+.section-bottom {
+    margin-top: 20px;
+    border-bottom: 3px solid #DDDDDD;
+    padding-bottom: 20px;
+}
+.box-add {
+    background: #00FFFF;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 4px;
+}
+    .box-add:hover {
+        background: #5be5d6;
+    }
+.box-setup {
+    border-radius: 4px;
+}
+    .box-setup:hover {
+        background: #5be5d6;
+    }
+
+.section-table {
+    width:90%;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #AAAAAA;
+    margin-bottom:20px;
+}
+table {
+    background: # CDC9C9;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    height:auto;
+}
+th {
+    text-align:center;
+    border-right:1px solid ;
+    color:white;
+}
+/*login*/
+.login {
+    background-image: linear-gradient(180deg, rgb(71, 235, 241) 0%, rgb(88, 198, 219) 70%);
+    margin-top: 50px;
+    width: 35%;
+    padding:20px 10px;
+    border-radius:10px;
+}
+.login h2 {
+    text-align:center;
+}
+.btn-primary {
+    margin-top: 20px;
+}
+select {
+    width:310px;
+    height:35px;
+}
+/*show doc gia*/
+.search {
+    padding:5px 25px;
+    margin-top:50px;
+    margin-left:45px;
+    border-radius:6px;
+}
+
+/*ql mượn trả*/
+#ql-borrow {
+   /* background-image: linear-gradient(120deg, rgb(71, 235, 241) 0%, rgb(88, 198, 219) 70%);*/
+    background-image: linear-gradient(180deg, rgb(129, 197, 239) 0%, rgb(102, 139, 201) 70%);
+}
+.section-one {
+    display:flex;
+    justify-content:space-around;
+}
+
+.section-one-left {
+    width:35%;
+    height:auto;
+    display:inline-block;
+    border:5px solid #EEEEEE;
+    border-radius:10px;
+    position:relative;
+    top:18px;
+}
+#ql-borrow .section-one-left h3 {
+    position: absolute;
+    top: -18px;
+    left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    border: 3px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+.section-one-right {
+    width:35%;
+    height:auto;
+    display: inline-block;
+    border: 5px solid #EEEEEE;
+    border-radius: 10px;
+    position: relative;
+    top:20px;
+}
+#ql-borrow .section-one-right h3 {
+    position: absolute;
+    top: -18px;
+    left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+.section-one-left span, .section-one-right span {
+    margin-top: 15px;
+    margin-left:30px;
+}
+
+.section-one-left input, .section-one-right input {
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom:20px;
+    
+}
+.section-one-right button {
+    border: 2px solid #EEEEEE;
+    margin-left:50%;
+    transform: translate(-50%);
+}
+
+
+#Trangthai-form {
+    background-image: linear-gradient(180deg, rgb(129, 197, 239) 0%, rgb(102, 139, 201) 70%);
+}
+
+
+/*ql mượn trả*/
+.section-qlsach {
+    background-image: linear-gradient(180deg, rgb(129, 197, 239) 0%, rgb(102, 139, 201) 70%);
+}
+
+.in4-sach {
+    display: flex;
+    justify-content: space-around;
+}
+.box-del {
+    background:#f41212;
+    color:black;
+    border-radius:4px;
+    padding:0px 5px;
+    margin-left:40px;
+}
+.box-del:hover {
+    background:#ed5858;
+}
+
+
+/*detail sách*/
+.section-detailsach {
+    background-image: linear-gradient(180deg, rgb(129, 197, 239) 0%, rgb(102, 139, 201) 70%);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:40px;
+}
+.sec-span {
+    display:inline-block;
+}
+.sec-input {
+    display:inline-block;
+    margin-left:40px;
+}
+.left-detail ,.right-detail{
+    margin-top:30px;
+}
+.section-table {
+    background-image: linear-gradient(180deg, rgb(84, 187, 228) 0%, rgb(81, 200, 231) 70%);
+}
+    .section-table tr {
+       border-bottom:1px solid white;
+    }
+    .section-table td {
+        color: white;
+        display: inline-block;
+        border-bottom: none;
+    }

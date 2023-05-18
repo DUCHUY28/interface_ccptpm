@@ -1,0 +1,62 @@
+﻿@page "/counter"
+
+<PageTitle>Quản lí mượn trả</PageTitle>
+
+<button class="btn-box1">Quản lí mượn trả</button>
+<NavLink class="nav-link" href="trang">          
+                <button class="btn-box2">Xem trạng thái</button>
+            </NavLink>
+<div id="ql-borrow">
+    <div class="section-one">
+        <div class="section-one-left">
+            <h3>Thông tin sách</h3><br />
+            <span>Tên sách :</span>
+            <input type="text"/><br />
+            <span>Mã sách :</span>
+            <input type="text"/><br />
+            <span>Số lượng</span>
+            <input type="number"/><br />
+            <span>Tác giả :</span>
+            <input type="text"/><br />
+            <span>Loại sách :</span>
+            <input type="text"/><br />
+            <span>Nhà xuất bản :</span>
+            <input type="text"/>
+        </div>
+        <div class="section-one-right">
+            <h3>Thực hiện cho mượn</h3><br />
+            <span>Mã độc giả :</span>
+            <input type="text"/><br />
+            <span>Ngày mượn :</span>
+            <input type="datetime"/><br />
+            <span>Ngày hẹn trả :</span>
+            <input type="datetime"/><br />
+            <span>Số lượng :</span>
+            <input type="number"/><br />
+            <span>Loại sách :</span>
+            <input type="text"/><br />
+           <button class="btn-box1">Xác nhận</button>
+        </div>
+    </div> 
+
+    <div class="section-table table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã độc giả</th>
+                <th>Mã sách</th>
+                <th>Ngày mượn</th>
+                <th>Ngày hẹn trả</th>
+                <th>Ngày trả</th>
+                <th>Số lượng mượn</th>
+            </tr>
+        </thead>
+    </table>  
+
+</div>
+</div>
+
+
+@code {
+    
+}

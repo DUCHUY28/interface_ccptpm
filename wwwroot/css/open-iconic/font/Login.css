@@ -1,0 +1,12 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login {
+    width:40%;
+}
+.btn btn-primary{
+    margin-top:20px;
+}
